@@ -1,0 +1,126 @@
+Cod	Nome	Mercados
+^GSPC	S&P 500	Bolsas
+^DJI	Dow Jones Industrial Average	Bolsas
+^IXIC	NASDAQ Composite	Bolsas
+^NYA	NYSE COMPOSITE (DJ)	Bolsas
+^XAX	NYSE AMEX COMPOSITE INDEX	Bolsas
+^BUK100P	Cboe UK 100	Bolsas
+^RUT	Russell 2000	Bolsas
+^VIX	Vix	Bolsas
+^FTSE	FTSE 100	Bolsas
+^GDAXI	DAX PERFORMANCE-INDEX	Bolsas
+^FCHI	CAC 40	Bolsas
+^STOXX50E	ESTX 50 PR.EUR	Bolsas
+^N100	Euronext 100 Index	Bolsas
+^BFX	BEL 20	Bolsas
+IMOEX.ME	MOEX Russia Index	Bolsas
+^N225	Nikkei 225	Bolsas
+^HSI	HANG SENG INDEX	Bolsas
+000001.SS	SSE Composite Index	Bolsas
+399001.SZ	Shenzhen Component	Bolsas
+^STI	STI Index	Bolsas
+^AXJO	S&P/ASX 200	Bolsas
+^AORD	ALL ORDINARIES	Bolsas
+^BSESN	S&P BSE SENSEX	Bolsas
+^JKSE	Jakarta Composite Index	Bolsas
+^KLSE	FTSE Bursa Malaysia KLCI	Bolsas
+^NZ50	S&P/NZX 50 INDEX GROSS	Bolsas
+^KS11	KOSPI Composite Index	Bolsas
+^TWII	TSEC weighted index	Bolsas
+^GSPTSE	S&P/TSX Composite index	Bolsas
+^BVSP	IBOVESPA	Bolsas
+^MXX	IPC MEXICO	Bolsas
+^MERV	MERVAL	Bolsas
+^TA125.TA	TA-125	Bolsas
+^JN0U.JO	Top 40 USD Net TRI Index	Bolsas
+ES=F	S&P Futures	Futuros
+YM=F	Dow Futures	Futuros
+NQ=F	Nasdaq Futures	Futuros
+RTY=F	Russell 2000 Futures	Futuros
+ZB=F	U.S. Treasury Bond Futures,Jun-	Futuros
+ZN=F	10-Year T-Note Futures,Jun-2022	Futuros
+ZF=F	Five-Year US Treasury Note Futu	Futuros
+ZT=F	2-Year T-Note Futures,Jun-2022	Futuros
+GC=F	Ouro	Commodities
+MGC=F	Micro Ouro	Commodities
+SI=F	Prata	Commodities
+SIL=F	Micro Prata	Commodities
+PL=F	Platina	Commodities
+HG=F	Cobre	Commodities
+PA=F	Paládio	Commodities
+CL=F	Petróleo Futuro	Commodities
+HO=F	Óleo de Aquecimento	Commodities
+NG=F	Gás Natural	Commodities
+RB=F	Gasolina	Commodities
+BZ=F	Petróleo BRENT	Commodities
+ZC=F	Milho	Commodities
+ZO=F	Aveia	Commodities
+KE=F	Trigo	Commodities
+ZR=F	Arroz	Commodities
+ZM=F	Soja Alimento	Commodities
+ZL=F	Soja (óleo)	Commodities
+ZS=F	Soja	Commodities
+GF=F	Gado	Commodities
+HE=F	Porco magro	Commodities
+LE=F	Gado Vivo	Commodities
+CC=F	Cacau	Commodities
+KC=F	Café	Commodities
+CT=F	Algodão	Commodities
+LBS=F	Madeira	Commodities
+OJ=F	Suco de laranja	Commodities
+SB=F	Açúcar	Commodities
+TIO=F	Minério de Ferro	Commodities
+ALI=F	Alumínio	Commodities
+^IRX	13 Week Treasury Bill	Juros
+^FVX	Treasury Yield 5 Years	Juros
+^TNX	Treasury Yield 10 Years	Juros
+^TYX	Treasury Yield 30 Years	Juros
+EURUSD=X	EUR/USD	Câmbio
+JPY=X	USD/JPY	Câmbio
+GBPUSD=X	GBP/USD	Câmbio
+AUDUSD=X	AUD/USD	Câmbio
+NZDUSD=X	NZD/USD	Câmbio
+EURJPY=X	EUR/JPY	Câmbio
+GBPJPY=X	GBP/JPY	Câmbio
+EURGBP=X	EUR/GBP	Câmbio
+EURCAD=X	EUR/CAD	Câmbio
+EURSEK=X	EUR/SEK	Câmbio
+EURCHF=X	EUR/CHF	Câmbio
+EURHUF=X	EUR/HUF	Câmbio
+CNY=X	USD/CNY	Câmbio
+HKD=X	USD/HKD	Câmbio
+SGD=X	USD/SGD	Câmbio
+INR=X	USD/INR	Câmbio
+MXN=X	USD/MXN	Câmbio
+PHP=X	USD/PHP	Câmbio
+IDR=X	USD/IDR	Câmbio
+THB=X	USD/THB	Câmbio
+MYR=X	USD/MYR	Câmbio
+ZAR=X	USD/ZAR	Câmbio
+RUB=X	USD/RUB	Câmbio
+BRL=X	USD/Real	Câmbio
+PXE	Invesco Dynamic Energy Exploration & Production ETF	ETF
+IEO	iShares U.S. Oil & Gas Exploration & Production ETF	ETF
+EWZS	iShares MSCI Brazil Small-Cap ETF	ETF
+FTXN	First Trust Nasdaq Oil & Gas ETF	ETF
+USAI	Pacer American Energy Independence ETF	ETF
+ENFR	Alerian Energy Infrastructure ETF	ETF
+FENY	Fidelity MSCI Energy Index ETF	ETF
+MLPX	Global X MLP & Energy Infrastructure ETF	ETF
+TPYP	Tortoise North American Pipeline Fund	ETF
+EINC	VanEck Vectors Energy Income ETF	ETF
+VDE	Vanguard Energy Index Fund ETF Shares	ETF
+ATMP	Barclays ETN+ Select MLP ETN	ETF
+IYE	iShares Trust - iShares U.S. Energy ETF	ETF
+XLE	Energy Select Sector SPDR Fund	ETF
+IXC	iShares Global Energy ETF	ETF
+FILL	iShares MSCI Global Energy Producers ETF	ETF
+ECH	iShares, Inc. - iShares MSCI Chile ETF	ETF
+EMLP	First Trust North American Energy Infrastructure Fund	ETF
+RTM	Invesco S&P 500 Equal Weight Materials ETF	ETF
+RYU	Invesco S&P 500 Equal Weight Utilities ETF	ETF
+VEGI	iShares MSCI Global Agriculture Producers ETF	ETF
+PEY	Invesco High Yield Equity Dividend Achievers ETF	ETF
+VPU	Vanguard Utilities Index Fund ETF Shares	ETF
+KBWB	Invesco KBW Bank ETF	ETF
+XLU	Utilities Select Sector SPDR Fund	ETF

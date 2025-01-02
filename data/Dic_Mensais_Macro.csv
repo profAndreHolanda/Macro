@@ -1,0 +1,148 @@
+indicador;Código;Tema
+Ativos_Reserva;BPAG12_AR12 ;Balanço de pagamentos
+Importações;BPAG12_BCM12 ;Balanço de pagamentos
+Exportações;BPAG12_BCX12 ;Balanço de pagamentos
+Saldo_Balança;BPAG12_BC12 ;Balanço de pagamentos
+Capital_Despesa ;BPAG12_CKD12 ;Balanço de pagamentos
+Capital_Receita;BPAG12_CKR12 ;Balanço de pagamentos
+Conta_Capital;BPAG12_CK12 ;Balanço de pagamentos
+Conta_Financeira;BPAG12_CF12 ;Balanço de pagamentos
+Investimento_Carteira;BPAG12_ICAAA12 ;Balanço de pagamentos
+Investimento_Direto_Externo_Saldo;BPAG12_IDE12 ;Balanço de pagamentos
+Investimento_Direto_Ingressos;BPAG12_IDPI12 ;Balanço de pagamentos
+Investimento_Direto_País;BPAG12_IDP12 ;Balanço de pagamentos
+Renda_Primária;BPAG12_RP12 ;Balanço de pagamentos
+Serviços_Despesas;BPAG12_SERD12 ;Balanço de pagamentos
+Serviços_Saldo;BPAG12_SER12 ;Balanço de pagamentos
+Transações_Correntes;BPAG12_TCPIB12 ;Balanço de pagamentos
+Transações_Correntes_Saldo;BPAG12_TC12 ;Balanço de pagamentos
+Reservas_internacionais;BM12_RES12 ;Balanço de pagamentos
+Câmbio;BM12_ERVF12 ;Câmbio
+Câmbio_Contratado;BM12_SGCC12 ;Câmbio
+Câmbio_Contratado_Exportação;BM12_XCC12 ;Câmbio
+Câmbio_Contratado_Importação;BM12_MCC12 ;Câmbio
+Licenciamento_Automóveis;ANFAVE12_LICVETOT12 ;Atividade
+Termos_de_Troca;FUNCEX12_TTR12 ;Atividade
+Importação_Quantum;FUNCEX12_MDQT12 ;Atividade
+Exportação_Quantum;FUNCEX12_XQT12 ;Atividade
+Exportação_Bens_Capital;FUNCEX12_XVBKGCE12 ;Atividade
+Importação_Bens_Capital;FUNCEX12_MDVBKGCE12 ;Atividade
+Exportação_Bens_Comsumo;SECEX12_XBENCONGCE12 ;Atividade
+Importação_Bens_Consumo;SECEX12_MBENCONGCE12 ;Atividade
+Emplacamento_Veículos;FENABRAVE12_VENDVETOT12 ;Atividade
+Eletricidade_Consumo;ELETRO12_CEET12 ;Atividade
+Eletricidade_Comércio;ELETRO12_CEECOM12 ;Atividade
+Eletricidade_Indústria;ELETRO12_CEEIND12 ;Atividade
+Eletricidade_Tarifa;ELETRO12_CEETT12 ;Atividade
+Faturamento_Real_Industria;CNI12_VENREA12 ;Atividade
+Faturamento_Real_Industria_Dessazonalizado;CNI12_VENRED12 ;Atividade
+ICEA;FCESP12_IICA12 ;Atividade
+Receita_Serviços_Real_Dessazonalizado;PMS12_RRSSA12 ;Atividade
+Vendas_Nominais_Varejo;PMC12_IVVNN12 ;Atividade
+Vendas_Reais;PMC12_IVVRN12 ;Atividade
+Vendas_Reais_Dessazonalizado;PMC12_IVVRNSA12 ;Atividade
+Vendas_Reais_Ampliado_Dessazonalizado;PMC12_IVVRNSAAMP12 ;Atividade
+FBCF;GAC12_INDFBCF12 ;Atividade
+FBCF_Dessazonalizado;GAC12_INDFBCFDESSAZ12 ;Atividade
+FBCF_Contrução_Civil;GAC12_INDFBCFCCDESSAZ12 ;Atividade
+PIB;BM12_PIB12 ;Atividade
+PIB_12m;BM12_PIBAC12 ;Atividade
+Consumo_Aparente_Bens_Consumo;GAC12_FBKFCAMI12 ;Atividade
+Consumo_Aparente_Bens_Capital;GAC12_CABC12 ;Atividade
+Consumo_Aparente_Bens_Capital_Dessazonalizado;GAC12_FBKFCAMIDESSAZ12 ;Atividade
+Consumo_Aparente_Bens_Consumo_Dessazonalizado;GAC12_CABCDESSAZ12 ;Atividade
+Consumo_Aparente_Indústria;GAC12_CAIG12 ;Atividade
+Consumo_Aparente_Indústria_Dessazonalizado;GAC12_CAIGDESSAZ12 ;Atividade
+Soja;IFS12_SOJAGP12 ;Commodities
+Carne;IFS12_BEEFB12;Commodities
+Milho;IFS12_MAIZE12 ;Commodities
+Petróleo;IFS12_PETROLEUM12 ;Commodities
+CAGED_Saldo;CAGED12_SALDONAJU12 ;Emprego
+Horas_Trabalhadas;CNI12_HTRAB12 ;Emprego
+Horas_Trabalhadas_Dessazonalizado;CNI12_HTRABD12 ;Emprego
+Desocupação_Mensalizada_Dessazonalizada;PNADC12_NDESOCMD12 ;Emprego
+Ocupação_Mensalizada_Dessazonalizada;PNADC12_NOCUPMD12 ;Emprego
+DLSP_Externa;BM12_DEXSPN12 ;Finanças Públicas
+DLSP_Interna;BM12_DINSPN12 ;Finanças Públicas
+DLSP_Interna_PIB;BM12_DINSPY12 ;Finanças Públicas
+DLSP_Externa_PIB;BM12_DEXSPY12 ;Finanças Públicas
+NFSP_Resultado_Primário_PIB;BM12_NFSPPYS12 ;Finanças Públicas
+NFSP_Resultado_Primário;BM12_NFSPPNAS12 ;Finanças Públicas
+CDI;BM12_TJCDI12 ;Financeiras
+TJLP;BM12_TJLP12 ;Financeiras
+Over_SELIC;BM12_TJOVER12 ;Financeiras
+TBF;BM12_TJTBF12 ;Financeiras
+TR;BM12_TJTR12 ;Financeiras
+LTN_1m;ANBIMA12_TJTLN112 ;Financeiras
+LTN_3m;ANBIMA12_TJTLN312 ;Financeiras
+LTN_6m;ANBIMA12_TJTLN612 ;Financeiras
+LTN_12m;ANBIMA12_TJTLN1212 ;Financeiras
+Swap_DI_Prefix_180;BMF12_SWAPDI180F12 ;Financeiras
+Swap_DI_Prefix_360;BMF12_SWAPDI360F12 ;Financeiras
+Swap_DI_Prefix_360_Média;BMF12_SWAPDI36012 ;Financeiras
+Base_Monetária_Média;BM12_M0MN12 ;Moeda e Crédito
+Base_Monetária_Papel_Moeda;BM12_PMEM12 ;Moeda e Crédito
+Base_Monetária_Reservas_Bancárias;BM12_RBM12 ;Moeda e Crédito
+Base_Monetária_PIB;BM12_M0NY12 ;Moeda e Crédito
+Crédito_Total;BM12_CCA12;Moeda e Crédito
+Crédito_PJ;BM12_CCAPJ12;Moeda e Crédito
+Crédito_PF;BM12_CCAPF12;Moeda e Crédito
+Crédito_PJ_Recursos;BM12_CRDCAPJ12;Moeda e Crédito
+Crédito_PF_Recursos;BM12_CRDCAPF12;Moeda e Crédito
+Crédito_PJ_Recurso_Livre;BM12_CRLCAPJ12 ;Moeda e Crédito
+Crédito_PF_Recurso_Livre;BM12_CRLCAPF12 ;Moeda e Crédito
+Crédito_Saldo_Total;BM12_CS12;Moeda e Crédito
+Crédito_Taxa_Total;BM12_CTJ12;Moeda e Crédito
+Crédito_Taxa_PJ;BM12_CRDTJPJ12;Moeda e Crédito
+Crédito_Taxa_PF;BM12_CRDTJPF12;Moeda e Crédito
+Inadimplência_Total;BM12_CIN12;Moeda e Crédito
+Inadimplência_PJ;BM12_CINPJ12;Moeda e Crédito
+Inadimplência_PF;BM12_CINPF12;Moeda e Crédito
+ICC;FCESP12_IIC12;Expectativas
+ICEI;CNI12_ICEIGER12;Expectativas
+Intenção_Consumo_Famílias;CNC12_ICF12;Expectativas
+Renda_Comprometida_Dívidas;CNC12_PEICRC12;Expectativas
+ICEC;CNC12_ICEC12;Expectativas
+Intenções_Investimento_Comércio;CNC12_IIEC12;Expectativas
+IPCA_Médias_Aparadas_Sem_Suavização_Variação;BM12_IPCA20N12;Preços
+IPC-BR;IGP12_IPCSNUCL12;Preços
+Expectativa_IPCA_Anualizada_6m;BM12_IPCAEXP612;Preços
+Expectativa_IPCA_Acumulada_12m;BM12_IPCAEXP1212;Preços
+Papelão_Embalagem;ABPO12_PAPEL12;Produção
+Massa_Salarial_Indústria;CNI12_NUCAP12;Produção
+Massa_Salarial_Real_Indústria;CNI12_NUCAPD12;Produção
+IBC-Br;SGS12_IBCBR12;Produção
+IBC-Br_Dessazonalizado;SGS12_IBCBRDESSAZ12;Produção
+Geração_Elétrica_Hidráulica;ONS12_HIDR12;Produção
+Geração_Elétrica_Térmica;ONS12_CONV12;Produção
+Produção_Gás_Natural;ANP12_PDGASN12;Produção
+Produção_Petróleo;ANP12_PDPET12;Produção
+Produção_Fertilizantes;ANDA12_PFERTILIZ12;Produção
+Produção_Caminhões;ANFAVE12_QCAMINM12;Produção
+Produção_Automóveis;ANFAVE12_QPASSAM12;Produção
+Estoques_Indústria_Transformação;CNI12_INDTE12;Produção
+Estoques_Indústria;CNI12_INDE12;Produção
+Estoques_Indústria_Extrativa;CNI12_INDEE12;Produção
+PI_Bens_Capital_Dessazonalizado;PIMPFN12_QIBKNNAS12;Produção
+PI_Bens_Capital;PIMPFN12_QIBKNN12;Produção
+PI_Bens_Consumo_Dessazonalizado;PIMPFN12_QIBCTNNAS12;Produção
+PI_Bens_Consumo_Duráveis;PIMPFN12_QIBCDNN12;Produção
+PI_Indústria;PIMPFN12_QIIGNN12;Produção
+PI_Indústria_Dessazonalizado;PIMPFN12_QIIGSNNAS12;Produção
+PI_Indústrias_Transformação;PIMPFN12_QIITNN12;Produção
+PI_Indústrias_Transformação_Dessazonalizado;PIMPFN12_QIITNNAS12;Produção
+PI_Fabricação_Veículos;PIMPFN12_QIIGNN2012;Produção
+PI_Insumos_construção;PIMPFN12_YICCNN12;Produção
+Salário_Mínimo_Real;GAC12_SALMINRE12 ;Renda
+PPC;GAC12_SALMINDOL12 ;Renda
+Salário_Mínimo;MTE12_SALMIN12 ;Renda
+Rendimento_Médio;PNADC12_RTE12 ;Renda
+Rendimento_Médio_Mensalizado;PNADC12_RTEM12 ;Renda
+Rendimento_Médio_Mensalizado_Dessazonalizado;PNADC12_RTEMD12 ;Renda
+IGP-M;IGP12_IGPMG12 ;Preços
+IPCA;PRECOS12_IPCAG12 ;Preços
+IPP;IPP12_IPPCG12 ;Preços
+Treasury Note 2 anos;VALOR12_TNOTES212;Treasury
+Treasury Note 5 anos;VALOR12_TNOTES512;Treasury
+Treasury Note 10 anos;VALOR12_TNOTES1012;Treasury
+Treasury Bond 30 anos;VALOR12_TBOND3012;Treasury

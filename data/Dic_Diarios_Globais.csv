@@ -1,0 +1,126 @@
+^GSPC,S&P 500,Bolsas
+^DJI,Dow Jones Industrial Average,Bolsas
+^IXIC,NASDAQ Composite,Bolsas
+^NYA,NYSE COMPOSITE (DJ),Bolsas
+^XAX,NYSE AMEX COMPOSITE INDEX,Bolsas
+^BUK100P,Cboe UK 100,Bolsas
+^RUT,Russell 2000,Bolsas
+^VIX,Vix,Bolsas
+^FTSE,FTSE 100,Bolsas
+^GDAXI,DAX PERFORMANCE-INDEX,Bolsas
+^FCHI,CAC 40,Bolsas
+^STOXX50E,ESTX 50 PR.EUR,Bolsas
+^N100,Euronext 100 Index,Bolsas
+^BFX,BEL 20,Bolsas
+IMOEX.ME,MOEX Russia Index,Bolsas
+^N225,Nikkei 225,Bolsas
+^HSI,HANG SENG INDEX,Bolsas
+000001.SS,SSE Composite Index,Bolsas
+399001.SZ,Shenzhen Component,Bolsas
+^STI,STI Index,Bolsas
+^AXJO,S&P/ASX 200,Bolsas
+^AORD,ALL ORDINARIES,Bolsas
+^BSESN,S&P BSE SENSEX,Bolsas
+^JKSE,Jakarta Composite Index,Bolsas
+^KLSE,FTSE Bursa Malaysia KLCI,Bolsas
+^NZ50,S&P/NZX 50 INDEX GROSS,Bolsas
+^KS11,KOSPI Composite Index,Bolsas
+^TWII,TSEC weighted index,Bolsas
+^GSPTSE,S&P/TSX Composite index,Bolsas
+^BVSP,IBOVESPA,Bolsas
+^MXX,IPC MEXICO,Bolsas
+^IPSA,S&P/CLX IPSA,Bolsas
+^MERV,MERVAL,Bolsas
+^TA125.TA,TA-125,Bolsas
+^CASE30,EGX 30 Price Return Index,Bolsas
+^JN0U.JO,Top 40 USD Net TRI Index,Bolsas
+ES=F,S&P Futures,Futuro_Bolsas
+YM=F,Dow Futures,Futuro_Bolsas
+NQ=F,Nasdaq Futures,Futuro_Bolsas
+RTY=F,Russell 2000 Futures,Futuro_Bolsas
+ZB=F,U.S. Treasury Bond Futures,Futuro_Juros
+ZN=F,10-Year T-Note Futures,Futuro_Juros
+ZF=F,Five-Year US Treasury Note Futu,Futuro_Juros
+ZT=F,2-Year T-Note Futures,Futuro_Juros
+^IRX,13 Week Treasury Bill,Juros
+^FVX,Treasury Yield 5 Years,Juros
+^TNX,Treasury Yield 10 Years,Juros
+^TYX,Treasury Yield 30 Years,Juros
+GC=F,Gold,Commodities
+MGC=F,Micro Gold Futures,Commodities
+SI=F,Silver,Commodities
+SIL=F,Micro Silver Futures,Commodities
+PL=F,Platinum Apr 22,Commodities
+HG=F,Copper May 22,Commodities
+PA=F,Palladium Jun 22,Commodities
+CL=F,Crude Oil,Commodities
+HO=F,Heating Oil Apr 22,Commodities
+NG=F,Natural Gas Apr 22,Commodities
+RB=F,RBOB Gasoline Apr 22,Commodities
+BZ=F,Brent Crude Oil Last Day Financ,Commodities
+B0=F,Mont Belvieu LDH Propane (OPIS),Commodities
+ZC=F,Corn Futures,Commodities
+ZO=F,Oat Futures,Commodities
+KE=F,KC HRW Wheat Futures,Commodities
+ZR=F,Rough Rice Futures,Commodities
+ZM=F,Soybean Meal Futures,Commodities
+ZL=F,Soybean Oil Futures,Commodities
+ZS=F,Soybean Futures,Commodities
+GF=F,Feeder Cattle Futures,Commodities
+HE=F,Lean Hogs Futures,Commodities
+LE=F,Live Cattle Futures,Commodities
+CC=F,Cocoa May 22,Commodities
+KC=F,Coffee May 22,Commodities
+CT=F,Cotton May 22,Commodities
+LBS=F,Lumber May 22,Commodities
+OJ=F,Orange Juice May 22,Commodities
+SB=F,Sugar #11 May 22,Commodities
+EURUSD=X,EUR/USD,Câmbio
+JPY=X,USD/JPY,Câmbio
+GBPUSD=X,GBP/USD,Câmbio
+AUDUSD=X,AUD/USD,Câmbio
+NZDUSD=X,NZD/USD,Câmbio
+EURJPY=X,EUR/JPY,Câmbio
+GBPJPY=X,GBP/JPY,Câmbio
+EURGBP=X,EUR/GBP,Câmbio
+EURCAD=X,EUR/CAD,Câmbio
+EURSEK=X,EUR/SEK,Câmbio
+EURCHF=X,EUR/CHF,Câmbio
+EURHUF=X,EUR/HUF,Câmbio
+EURJPY=X,EUR/JPY,Câmbio
+CNY=X,USD/CNY,Câmbio
+HKD=X,USD/HKD,Câmbio
+SGD=X,USD/SGD,Câmbio
+INR=X,USD/INR,Câmbio
+MXN=X,USD/MXN,Câmbio
+PHP=X,USD/PHP,Câmbio
+IDR=X,USD/IDR,Câmbio
+THB=X,USD/THB,Câmbio
+MYR=X,USD/MYR,Câmbio
+ZAR=X,USD/ZAR,Câmbio
+RUB=X,USD/RUB,Câmbio
+PXE,Invesco Dynamic Energy Exploration & Production ETF,ETF
+IEO,iShares U.S. Oil & Gas Exploration & Production ETF,ETF
+EWZS,iShares MSCI Brazil Small-Cap ETF,ETF
+FTXN,First Trust Nasdaq Oil & Gas ETF,ETF
+USAI,Pacer American Energy Independence ETF,ETF
+ENFR,Alerian Energy Infrastructure ETF,ETF
+FENY,Fidelity MSCI Energy Index ETF,ETF
+MLPX,Global X MLP & Energy Infrastructure ETF,ETF
+TPYP,Tortoise North American Pipeline Fund,ETF
+EINC,VanEck Vectors Energy Income ETF,ETF
+VDE,Vanguard Energy Index Fund ETF Shares,ETF
+ATMP,Barclays ETN+ Select MLP ETN,ETF
+IYE,iShares Trust - iShares U.S. Energy ETF,ETF
+XLE,Energy Select Sector SPDR Fund,ETF
+IXC,iShares Global Energy ETF,ETF
+FILL,iShares MSCI Global Energy Producers ETF,ETF
+ECH,iShares,ETF
+EMLP,First Trust North American Energy Infrastructure Fund,ETF
+RTM,Invesco S&P 500 Equal Weight Materials ETF,ETF
+RYU,Invesco S&P 500 Equal Weight Utilities ETF,ETF
+VEGI,iShares MSCI Global Agriculture Producers ETF,ETF
+PEY,Invesco High Yield Equity Dividend Achievers ETF,ETF
+VPU,Vanguard Utilities Index Fund ETF Shares,ETF
+KBWB,Invesco KBW Bank ETF,ETF
+XLU,Utilities Select Sector SPDR Fund,ETF
