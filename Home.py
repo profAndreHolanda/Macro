@@ -4,6 +4,7 @@ import os
 from datetime import datetime, timedelta
 import plotly.express as px
 
+
 # Configuração da página
 st.set_page_config(layout="wide")
 
@@ -17,6 +18,7 @@ curdir=os.getcwd()
 path = os.path.join(os.getcwd(), "data/")
 
 st.logo(curdir+'/logo.jpg', size='large')
+
 
 # Carrega as variáveis da sessão por causa da recarga da página
 for k, v in st.session_state.items():
