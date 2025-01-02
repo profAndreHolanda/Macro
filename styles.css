@@ -1,0 +1,90 @@
+
+.stHeading{
+color: rgba(56,130,163,1);
+}
+
+.stMainBlockContainer{
+background-color: #f0f0f0;
+
+}
+
+.stVerticalBlock{
+color:rgba(56,130,163,1);
+}
+
+.stAlertContainer {
+    background: coral;
+    color:aliceblue
+}
+
+.h2{color:coral;}
+
+.st-emotion-cache-6qob1r {
+
+background: rgb(56, 130, 163);
+#background: linear-gradient(180deg, rgba(104,189,230,1) 0%, rgba(56,130,163,1) 29%, rgba(28,64,73,1) 100%);
+
+}
+
+st-emotion-cache-1dj3ksd ew7r33m3{
+    color:#f0f0f0;
+}
+
+.st-emotion-cache-ue6h4q {
+background: rgb(65, 103, 122);
+}
+.stSelectbox{
+background-color: #f0f0f0;
+color:#306099;
+}
+
+#p-r-o-s-p-e-r-o{
+color:#f0f0f0;
+}
+
+#e0e54bcd{
+color:#aaaaaa;
+}
+
+.st-emotion-cache-xtjyj5 {
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 0.1rem;
+    padding-left: 0.5rem;
+    padding-right: 0;
+    margin: 0.125rem 0rem 0rem 1.5rem;
+    line-height: 2;
+    color: rgb(85, 88, 103);
+    background-color: #f0f0f0;
+}
+
+.st-emotion-cache-6tkfeg {
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: table-cell;
+}
+
+.st-emotion-cache-1puwf6r p{
+font-size:18px;
+}
+
+.st-emotion-cache-ue6h4q{
+color:white;
+
+background-color: rgb(56, 130, 163); 
+}
+
+.stAppHeader{
+    background: #f0f0f0;
+}
+
+#MainMenu{
+visibility:hidden;
+}
