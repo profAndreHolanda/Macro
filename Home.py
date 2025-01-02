@@ -16,7 +16,7 @@ else:
 curdir=os.getcwd()
 path = os.path.join(os.getcwd(), "data\\")
 
-st.logo(curdir+'\\LogoTransparente.png', size='large')
+st.logo(curdir+'\\logo.jpg', size='large')
 
 # Carrega as variáveis da sessão por causa da recarga da página
 for k, v in st.session_state.items():
