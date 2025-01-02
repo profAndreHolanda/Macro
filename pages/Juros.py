@@ -14,13 +14,27 @@ else:
     st.warning("Arquivo 'styles.css' não encontrado.")
     
 curdir=os.getcwd()
-path = os.path.join(os.getcwd(), "data/")
+path = os.path.join(os.getcwd(), "data\\")
 
-st.logo(curdir+'/logo.jpg', size='large')
+st.logo(curdir+'\\logo.jpg', size='large')
 
 # Carrega as variáveis da sessão por causa da recarga da página
 for k, v in st.session_state.items():
     st.session_state[k] = v
+
+if 'ativos' not in st.session_state:
+     @st.cache_data
+     def load_data():
+        df_Macro_Mensais=pd.read_csv(path+'Macro_Mensais.csv', sep=';', encoding='utf-8', index_col=0)
+        df_Macro_Mensais.index = pd.to_datetime(df_Macro_Mensais.index,format='%Y-%m-%d')
+        ativos=pd.read_csv(path+'Mercados.csv',sep ='\t',encoding='utf-8',index_col=0)
+        dados=pd.read_csv(path+'Dados_Mercados.csv',sep =';',encoding='utf-8',index_col=0)
+        dados.index = pd.to_datetime(dados.index,format='%Y-%m-%d')
+        ativos=ativos[ativos.index.isin(dados.columns)]
+        dados.columns=ativos.sort_values('Cod').Nome
+        return df_Macro_Mensais, ativos,dados
+     
+     st.session_state.df_Macro_Mensais, st.session_state.ativos, st.session_state.dados = load_data()
 
 # Recupera dados e ativos
 futuros_juros=st.session_state.ativos.loc[st.session_state.ativos.index.isin(['ZB=F','ZN=F','ZF=F','ZT=F'])]
