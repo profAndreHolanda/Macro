@@ -60,25 +60,24 @@ def datas_validas (inicio, fim):
 # Sidebar
 with st.sidebar:
     if 'start_date' not in st.session_state:
-	primeira=datetime(2015,1,2)
-	última=st.session_state.df_Macro_Mensais.index[-1]
-	st.date_input("De", format="DD/MM/YYYY", value=primeira,key='start_date')
-	st.date_input("Até", format="DD/MM/YYYY", value=última, key='end_date')
-	st.session_state.portfolio_bolsas=st.multiselect('Ativos', ativos.Nome, default=lista_default, key='option_bolsas')
-	recorte=dados[st.session_state.portfolio_bolsas].loc[st.session_state.start_date:st.session_state.end_date]
-	vix=dados.Vix.ffill().loc[st.session_state.start_date:st.session_state.end_date] 
-    else:
-	st.date_input("De", format="DD/MM/YYYY", key='start_date')
-	st.date_input("Até", format="DD/MM/YYYY", key='end_date')
-
-	if datas_validas (st.session_state.start_date, st.session_state.end_date):
+	    primeira=datetime(2015,1,2)
+	    última=st.session_state.df_Macro_Mensais.index[-1]
+	    st.date_input("De", format="DD/MM/YYYY", value=primeira,key='start_date')
+	    st.date_input("Até", format="DD/MM/YYYY", value=última, key='end_date')
+	    st.session_state.portfolio_bolsas=st.multiselect('Ativos', ativos.Nome, default=lista_default, key='option_bolsas')
 	    recorte=dados[st.session_state.portfolio_bolsas].loc[st.session_state.start_date:st.session_state.end_date]
-	    vix=dados.Vix.ffill().loc[st.session_state.start_date:st.session_state.end_date]
-	    st.session_state.old_start=st.session_state.start_date
-	    st.session_state.old_end=st.session_state.end_date
-	else:
-	    recorte=dados[st.session_state.portfolio_bolsas].loc[st.session_state.old_start:st.session_state.old_end]
-	    vix=dados.Vix.ffill().loc[st.session_state.old_start:st.session_state.old_end]
+	    vix=dados.Vix.ffill().loc[st.session_state.start_date:st.session_state.end_date] 
+    else:
+	    st.date_input("De", format="DD/MM/YYYY", key='start_date')
+	    st.date_input("Até", format="DD/MM/YYYY", key='end_date')
+	    if datas_validas (st.session_state.start_date, st.session_state.end_date):
+		    recorte=dados[st.session_state.portfolio_bolsas].loc[st.session_state.start_date:st.session_state.end_date]
+		    vix=dados.Vix.ffill().loc[st.session_state.start_date:st.session_state.end_date]
+		    st.session_state.old_start=st.session_state.start_date
+		    st.session_state.old_end=st.session_state.end_date
+	    else:
+		    recorte=dados[st.session_state.portfolio_bolsas].loc[st.session_state.old_start:st.session_state.old_end]
+		    vix=dados.Vix.ffill().loc[st.session_state.old_start:st.session_state.old_end]
 
 #.............................................PRINCIPAL .............................................
 st.header('Mercado Global', divider=True)
