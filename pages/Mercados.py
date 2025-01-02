@@ -6,6 +6,9 @@ import plotly.express as px
 
 # Configuração da página
 st.set_page_config(layout="wide")
+if len(st.session_state.items())==0:    
+    web.open(curdir+'../Home.py')
+
 
 if os.path.exists('styles.css'):
     with open('styles.css') as f:
