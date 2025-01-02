@@ -3,6 +3,8 @@ import pandas as pd
 import os
 from datetime import datetime, timedelta
 import plotly.express as px
+import webbrowser as web
+
 
 # Configuração da página
 st.set_page_config(layout="wide")
