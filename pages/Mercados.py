@@ -125,7 +125,7 @@ with Esq:
     comparado=recorte.copy()
     if 'IBOVESPA' not in comparado.columns:
 	    comparado['IBOVESPA']=dados.IBOVESPA
-	    matriz = comparado.corr().IBOVESPA.drop('IBOVESPA').sort_values()
+    matriz = comparado.corr().IBOVESPA.drop('IBOVESPA').sort_values()
     st.plotly_chart(px.bar(matriz, text_auto=True, labels=dict(Nome='',value=''), orientation='h').update_layout(showlegend=False))
     
 
