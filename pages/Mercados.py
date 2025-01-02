@@ -14,7 +14,7 @@ st.set_page_config(layout="wide")
 
 if os.path.exists('styles.css'):
     with open('styles.css') as f:
-	st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
+	    st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 else:
     st.warning("Arquivo 'styles.css' não encontrado.")
     
