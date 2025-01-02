@@ -79,9 +79,6 @@ with st.sidebar:
 	else:
 	    recorte=dados[st.session_state.portfolio_bolsas].loc[st.session_state.old_start:st.session_state.old_end]
 	    vix=dados.Vix.ffill().loc[st.session_state.old_start:st.session_state.old_end]
-    
-    
-    st.session_state.portfolio_bolsas=st.multiselect('Ativos', ativos.Nome, default=st.session_state.portfolio_bolsas,key='option_bolsas')
 
 #.............................................PRINCIPAL .............................................
 st.header('Mercado Global', divider=True)
