@@ -50,11 +50,11 @@ lista_default=['IBOVESPA',
 # Valida datas
 def datas_validas (inicio, fim):
     if (inicio>fim):
-	st.warning('A data inicial não pode ser posterior à data final',icon=":material/error:")
+	    st.warning('A data inicial não pode ser posterior à data final',icon=":material/error:")
     elif(fim>datetime.today().date()):
-	st.warning('A data final não pode ser futura',icon=":material/error:")
+	    st.warning('A data final não pode ser futura',icon=":material/error:")
     else:
-	return True
+	    return True
     return False
 
 # Sidebar
