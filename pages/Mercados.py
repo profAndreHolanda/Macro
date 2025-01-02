@@ -14,9 +14,9 @@ else:
     st.warning("Arquivo 'styles.css' não encontrado.")
     
 curdir=os.getcwd()
-path = os.path.join(os.getcwd(), "data\\")
+path = os.path.join(os.getcwd(), "data/")
 
-st.logo(curdir+'\\logo.jpg', size='large')
+st.logo(curdir+'/logo.jpg', size='large')
 
 if 'ativos' not in st.session_state:
      @st.cache_data
