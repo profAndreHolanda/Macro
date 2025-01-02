@@ -13,9 +13,9 @@ for k, v in st.session_state.items():
     st.session_state[k] = v
 
 curdir=os.getcwd()
-path = os.path.join(os.getcwd(), "data\\")
+path = os.path.join(os.getcwd(), "data/")
 
-st.logo(curdir+'\\logo.jpg', size='large')
+st.logo(curdir+'/logo.jpg', size='large')
 
 if os.path.exists('styles.css'):
     with open('styles.css') as f:
